@@ -1,4 +1,4 @@
-This contains the set of instructions required to build and run the TOllGis (Client Server) application.
+This contains the set of instructions required to build and run the Client Server application.
 
 Building the Project.
 ====================
@@ -12,11 +12,11 @@ eClipse 3.5 or higher
 
 Steps:
 ------
-1 - Unzip the TOllGis.zip
-2 - Go to the project home directory of TollGID, and run 
+1 - download the project.
+2 - Go to the project home directory of ClientServerComunication, and run 
     $ mvn clean package
     
-3 - Import project to your IDE for review 
+3 - Import project to your IDE 
 	a) To import your project into eclipse IDE
 			$ mvn eclipse:eclipse
  			Import the project into eclipse IDE (Existing Projects in Workspace > Browse and locate the extracted "TollGis" folder). 
